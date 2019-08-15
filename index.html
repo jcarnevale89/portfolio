@@ -1,1 +1,28 @@
-Hello Jakes Website
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script>
+  var app = new Vue({
+  el: '#app',
+  data: {
+    count: 0,
+  },
+    methods: {
+      countUp() {
+        this.count++
+      }
+    }
+})
+  </script>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<div id="app">{{ count }}
+  <button @click="countUp">Click Me</button>
+  </div>
+
+</body>
+</html>
