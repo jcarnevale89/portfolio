@@ -1,9 +1,9 @@
 <template lang="pug">
   .hero.w-screen.h-screen.relative
-    .gradient.opacity-75.absolute.inset-0
-    img.relative.mx-auto.pt-4(src="https://placehold.it/100x100")
-    .absolute.inset-0.flex.justify-center.items-center
-      h1.text-6xl.text-white.font-bold Hi, I'm Jake.
+    .gradient.absolute.inset-0
+    .absolute.inset-0.flex.flex-col.justify-center.items-center.text-center.text-white.font-bold
+      h1.text-6xl Hi, I'm Jake.
+      h2.text-4xl This website is currently under construction
 </template>
 
 <script>
@@ -19,5 +19,6 @@ export default {
   background-position center
 
 .gradient
-  background-image linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)
+  background-image linear-gradient(0deg, rgba(0,0,0,.9) 15%, rgba(10,10,10,.55) 100%)
+
 </style>

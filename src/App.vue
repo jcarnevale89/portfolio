@@ -1,11 +1,19 @@
 <template lang="pug">
-  #app.font-sans
-    //- #nav
-    //-   router-link(to="/") Home
-    //-   | |
-    //-   router-link(to="/about") About
+  #app
+    //- Navigation
 
     router-view
 </template>
+
+<script>
+import Navigation from './components/Navigation.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Navigation,
+  },
+};
+</script>
 
 <style src="./assets/tailwind.css">
