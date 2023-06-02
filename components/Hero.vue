@@ -13,7 +13,7 @@ div(class="bg-gray-900")
 
     .absolute.inset-0.flex.flex-col.justify-center.items-center.text-center.font-bold.text-white.gap-4
       h1.text-6xl Hi, I'm Jake.
-      h2.text-4xl This website is currently under construction
+      h2.text-4xl This website is currently under construction with Nuxt 3
 </template>
 
 <script setup lang="ts">
