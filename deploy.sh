@@ -4,10 +4,10 @@
 set -e
 
 # build
-npm run build
+pnpm run generate
 
 # navigate into the build output directory
-cd dist
+cd .output/public
 
 # if you are deploying to a custom domain
 echo 'jakecarnevale.com' > CNAME
