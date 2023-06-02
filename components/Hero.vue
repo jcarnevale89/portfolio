@@ -3,7 +3,7 @@ div(class="bg-gray-900")
   div(class="fixed w-screen h-screen")
     img(
       class="w-screen h-screen object-cover"
-      src="/public/background.jpg"
+      src="/background.jpg"
       alt=''
     )
     div(
@@ -13,7 +13,7 @@ div(class="bg-gray-900")
 
     .absolute.inset-0.flex.flex-col.justify-center.items-center.text-center.font-bold.text-white.gap-4
       h1.text-6xl Hi, I'm Jake.
-      h2.text-4xl This website is currently under construction with Nuxt 3
+      h2.text-4xl This website is currently under construction
 </template>
 
 <script setup lang="ts">
