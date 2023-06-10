@@ -1,5 +1,6 @@
-<template>
-  <div class="">
-    <Hero />
-  </div>
+<template lang="pug">
+div
+  Navigation
+
+  NuxtPage
 </template>

@@ -2,15 +2,18 @@
 export default defineNuxtConfig({
   ssr: false,
   css: ["~/assets/css/main.css"],
+
   devtools: {
     enabled: true,
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   typescript: {
     tsConfig: {
       vueCompilerOptions: {
@@ -18,4 +21,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  modules: ["nuxt-icon"],
 });
