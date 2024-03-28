@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const route = useRoute();
-</script>
-
 <template lang="pug">
 div
   Hero
@@ -12,3 +8,7 @@ div
     a(href="https://nuxt.com/docs/getting-started/routing" target="_blank") Learn more about Nuxt Routingfdasfdsa
 
 </template>
+
+<script setup lang="ts">
+const route = useRoute();
+</script>
