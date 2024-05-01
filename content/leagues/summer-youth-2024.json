@@ -1,0 +1,15 @@
+{
+  "teams": [
+    {
+      "name": "Team A",
+      "players": ["Jake Carnevale", "Travis Fudge", "Sam Jones"]
+    }
+  ],
+  "schedule": [
+    {
+      "homeTeam": "Team 1",
+      "awayTeam": "Team 2",
+      "date": "2024-06-01T16:00:00Z"
+    }
+  ]
+}

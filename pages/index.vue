@@ -5,10 +5,9 @@ div
   div
     h1 Nuxt Routing set up successfully!
     p Current route: {{ route.path }}
-    a(href="https://nuxt.com/docs/getting-started/routing" target="_blank") Learn more about Nuxt Routingfdasfdsa
-
+    a(href='https://nuxt.com/docs/getting-started/routing' target='_blank') Learn more about Nuxt Routing
 </template>
 
 <script setup lang="ts">
-const route = useRoute();
+const route = useRoute()
 </script>

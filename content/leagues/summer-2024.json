@@ -1,0 +1,24 @@
+{
+  "id": "summer-2024",
+  "name": "Summer 2024",
+  "lastUpdatedAt": "2024-06-01T16:00:00Z",
+  "teams": [
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "Team 1",
+      "players": ["jake-carnevale", "sam-jones"]
+    },
+    {
+      "id": "abcac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "Team 2",
+      "players": ["travis-fudge", "austin-purdy"]
+    }
+  ],
+  "schedule": [
+    {
+      "homeTeam": "Team 1",
+      "awayTeam": "Team 2",
+      "date": "2024-06-01T16:00:00Z"
+    }
+  ]
+}
