@@ -164,7 +164,7 @@ div(class='bg-white')
               )
 
             p(class='text-gray-600')
-              | 2009 S National Ave, Springfield, MO 65804
+              | 2009 S National Ave
               br
               | Springfield, MO 65804
 
